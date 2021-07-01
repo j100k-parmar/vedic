@@ -163,7 +163,7 @@ nav {
     background-color: #3e51ad;
 }
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width:576px) {
     nav {
         height: 87px;
     }
@@ -192,7 +192,7 @@ nav {
     }
 }
 
-@media (max-width:768px) {
+@media only screen and (max-width:768px) {
     .menu {
         display: none;
     }
@@ -206,9 +206,9 @@ nav {
     }
 }
 
-@media only screen and (max-width:992px) {
+@media only screen and (max-width:1026px) {
     .lessons i {
-        padding: 0;
+        padding: 22px;
     }
     .btn {
         margin-top: -55px;
@@ -218,10 +218,17 @@ nav {
         margin: 30px;
     }
     .menu {
-        width: 54%;
+        width: 51%;
         margin-top: 40px;
     }
     .menu ul li {
-        padding-left: 8px;
+        padding-left: 14px;
+        font-size: 18px;
+    }
+    .amount {
+        padding: 15px 20px;
+    }
+    .btn {
+        margin-top: 25px;
     }
 }
